@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+.pattern-2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transform: translateY(50%);
+}
+.pattern {
+    position: absolute;
+    top: 100px;
+    transform: translateY(-53%);
+}
+main h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+main p {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 5px 60px;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    
+}
+
+.review img {
+    padding: 1px 4px;
+    margin-bottom: 10px;
+}
+
+.para {
+    margin-top: 0px;
+    
+}
+
+.para p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.cards {
+    background-color: hsl(300, 43%, 22%);
+    margin: 20px 30px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.div {
+    display: flex; 
+    width: 100%;
+    margin-bottom: 20px;  
+   
+}
+.images img {
+    border-radius: 100%;
+    width: 40px;
+}
+.text  {
+    margin: 5px 20px;
+    line-height: 1rem;
+}
+.text h3 {
+    color:  hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.text small {
+    
+    color: hsl(333, 80%, 67%);
+}
+.cards {
+    color: hsl(300, 24%, 96%);
+}
+.cards p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+
+@media (min-width:760px) {
+    .testimonials {
+        display: flex;
+    }
+    .section {
+        display: flex;
+        
+    }
+    .card-2 {
+        transform: translateY(10%);
+    }
+    .card-3 {
+        transform: translateY(20%);
+    }
+    .review {
+        display:-webkit-inline-flex;
+        margin: 10px 80px;
+    }
+    .star-1 {
+        transform: translateX(15%);
+    }
+    .star-2{
+        transform: translateX(25%);
+    }
+    .star-3 {
+        transform: translateX(45%);
+    }
+    .para {
+       margin-top: 10px;
+       margin-bottom: 10x;
+       margin-left: 50px;
+    }
+    .reviews {
+        margin-top: 70px;
+    }
+    .review img {
+       padding: 5px 3px;
+       margin: 2px 3px;
+    }
+    .head h1{
+        line-height: 3rem;
+        text-align: left;
+        margin-left: 60px;
+    }
+    .head p {
+       text-align: left;
+       
+    }
+    .card-1 {
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .card-2 {
+        margin-top: 50px;
+    }
+    .card-3 {
+        margin-right: 60px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-30%);
+    }
+    .pattern-2 {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        transform:translateX(20%);
+        
+    }
+
+}
+
